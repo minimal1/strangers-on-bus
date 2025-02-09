@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "description": "누군지 모르지만 내 옆에 있을 사람과 채팅하는 서비스",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "build": "npx turbo build"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/minimal1/strangers-on-bus.git"
@@ -17,8 +19,8 @@
   },
   "homepage": "https://github.com/minimal1/strangers-on-bus#readme",
   "workspaces": [
-    "apps/*",
-    "packages/*"
+    "apps/**/*",
+    "packages/**/*"
   ],
   "devDependencies": {
     "prettier": "^3.4.2",
