@@ -1,4 +1,5 @@
-# Strangers On Subway
+# Strangers on Bus
+
 누군지 모르지만 내 옆에 있을 사람과 채팅하는 서비스
 
 [Slack](https://strangersonsubway.slack.com)
