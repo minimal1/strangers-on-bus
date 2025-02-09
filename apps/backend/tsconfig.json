@@ -1,0 +1,9 @@
+{
+    "extends": "@config/typescript/node.json",
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "baseUrl": "src",
+        "outDir": "dist"
+    },
+    "include": ["src"]
+}
