@@ -15,7 +15,6 @@
 - 개발 방식
 
   - [Trunk Based Development](/culture/development/trunk-based-development.md)
-  - [Branch naming](/culture/development/branch-naming.md)
   - [Conventional Commit](/culture/development/conventional-commit.md)
   - [Monorepo](/culture/development/monorepo.md)
   - [PR Format](/culture/development/pr-format.md)
