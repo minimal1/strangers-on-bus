@@ -55,7 +55,7 @@ strangers-on-bus/
 ├── docs/                # 프로젝트 문서
 ├── package.json         # 루트 package.json
 ├── turbo.json           # Turborepo 설정
-└── yarn.lock            # 의존성 잠금 파일
+└── package-lock.json    # 의존성 잠금 파일
 ```
 
 ## Turborepo 환경 설정
@@ -180,30 +180,30 @@ npm install turbo --global
 
 ```bash
 # 모든 애플리케이션과 패키지를 개발 모드로 실행
-yarn dev
+npm run dev
 
 # 특정 애플리케이션만 실행
-yarn workspace web dev
+npm run --workspace=web dev
 ```
 
 ### 2. 빌드 실행
 
 ```bash
 # 모든 패키지와 애플리케이션 빌드
-yarn build
+npm run build
 
 # 특정 애플리케이션만 빌드
-yarn workspace api build
+npm run --workspace=api build
 ```
 
 ### 3. 테스트 실행
 
 ```bash
 # 모든 테스트 실행
-yarn test
+npm run test
 
 # 특정 패키지의 테스트만 실행
-yarn workspace utils test
+npm run --workspace=utils test
 ```
 
 ### 4. 새 패키지 추가
@@ -211,7 +211,7 @@ yarn workspace utils test
 ```bash
 mkdir -p packages/new-package
 cd packages/new-package
-yarn init
+npm init
 ```
 
 ## 모범 사례
@@ -244,6 +244,6 @@ turbo run build --dry-run --graph
 ## 참고 자료
 
 - [Turborepo 공식 문서](https://turbo.build/repo/docs)
-- [Yarn Workspaces 문서](https://classic.yarnpkg.com/en/docs/workspaces/)
+- [NPM Workspaces 문서](https://docs.npmjs.com/cli/v7/using-npm/workspaces)
 - [NX 모노레포 도구](https://nx.dev/)
 - [Lerna](https://lerna.js.org/)
